@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageViewArtScienceMuseum"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/artscience_museum" />
+
+            <Button
+                android:id="@+id/buttonArtScienceMuseum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/art_science_museum" />
+
+            <ImageView
+                android:id="@+id/imageViewNationalMuseumOfSingapore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/national_museum" />
+
+            <Button
+                android:id="@+id/buttonNationalMuseumOfSingpaore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/national_museum_of_singapore" />
+
+            <ImageView
+                android:id="@+id/imageViewBotanicGarden"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/botanical_gardens" />
+
+            <Button
+                android:id="@+id/buttonBotanicGarden"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/botanic_garden" />
+
+            <ImageView
+                android:id="@+id/imageViewChinatown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/chinatown" />
+
+            <Button
+                android:id="@+id/buttonChinatown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/chinatown" />
+
+            <ImageView
+                android:id="@+id/imageViewChineseGarden"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/chinese_garden_park" />
+
+            <Button
+                android:id="@+id/buttonChineseGarden"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/chinese_garden" />
+
+            <ImageView
+                android:id="@+id/imageViewFortCanning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/fort_canning" />
+
+            <Button
+                android:id="@+id/buttonFortCanning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fort_canning" />
+
+            <ImageView
+                android:id="@+id/imageViewGardensByTheBay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/gardens_by_the_bay6" />
+
+            <Button
+                android:id="@+id/buttonGardensByTheBay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gardens_by_the_bay" />
+
+            <ImageView
+                android:id="@+id/imageViewRiverSafari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/river_safari" />
+
+            <Button
+                android:id="@+id/buttonRiverSafari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/river_safari" />
+
+            <ImageView
+                android:id="@+id/imageViewSingaporeZoo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/singapore_zoo" />
+
+            <Button
+                android:id="@+id/buttonSingaporeZoo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/singapore_zoo" />
+
+            <ImageView
+                android:id="@+id/imageViewUSS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/uss" />
+
+            <Button
+                android:id="@+id/buttonUSS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/uss" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

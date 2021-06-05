@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailsOfPlaceOfInterest">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E6DE96">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textview"
+                android:textColor="#744EB8" />
+
+            <TextView
+                android:id="@+id/textViewlink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textview2"
+                android:textColor="#744EB8"
+                android:textColorHint="#FFFFFF" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

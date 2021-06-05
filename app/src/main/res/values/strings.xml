@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Practical2</string>
+    <string name="art_science_museum">Art Science Museum</string>
+    <string name="national_museum_of_singapore">National Museum Of Singapore</string>
+    <string name="botanic_garden">Botanic Garden</string>
+    <string name="chinatown">Chinatown</string>
+    <string name="chinese_garden">Chinese Garden</string>
+    <string name="fort_canning">Fort Canning</string>
+    <string name="gardens_by_the_bay">Gardens By The Bay</string>
+    <string name="river_safari">River Safari</string>
+    <string name="singapore_zoo">Singapore Zoo</string>
+    <string name="uss">USS</string>
+    <string name="textview">TextView</string>
+    <string name="textview2">TextView</string>
+</resources>
